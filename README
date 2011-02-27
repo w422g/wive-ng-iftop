@@ -1,0 +1,32 @@
+wive_ng_iftop 0.0.1
+
+Checked in Ubuntu 10.04
+
+You have to build the entire wive_ng first.
+
+Download wive-ng snapshot: http://wive-ng.git.sourceforge.net/git/gitweb.cgi?p=wive-ng/wive-ng;a=tree
+or directly via git: git clone git://wive-ng.git.sourceforge.net/gitroot/wive-ng/wive-ng
+
+IMPORTANT! You should place sources into /opt/Wive
+
+Compiling:
+
+apt-get install flex
+apt-get install bizon
+
+mkdir -p /opt/Wive/toolchain/nonmips-tcb/toolchain_build_mips/ccache-2.4/cache
+
+/opt/Wive/compile:
++export PATH=/opt/Wive/toolchain/bin:$PATH
++export CFLAGS=-D_FORTIFY_SOURCE=0
+
+/opt/Wive/config:
+-REBUILDTOOLCHAIN=NO
++REBUILDTOOLCHAIN=YES
+
+/opt/Wive/kernel/Makefile:
+-CROSSPATH = /usr/local/bin/
++CROSSPATH = /opt/Wive/toolchain/bin/
+
+./compile
+
