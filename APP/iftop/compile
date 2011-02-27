@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export PATH=/opt/Wive/toolchain/bin:$PATH
+export CFLAGS=-D_FORTIFY_SOURCE=0
+
+cd ncurses/ncurses/
+make
+
+cd ../../
+make
+
+/opt/Wive/toolchain/bin/mips-linux-uclibc-strip ./iftop
