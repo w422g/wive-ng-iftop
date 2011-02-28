@@ -30,3 +30,8 @@ mkdir -p /opt/Wive/toolchain/nonmips-tcb/toolchain_build_mips/ccache-2.4/cache
 
 ./compile
 
+cd APP/iftop
+
+./compile
+
+the iftop binary will be located in /opt/Wive/APP/iftop
