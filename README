@@ -1,8 +1,10 @@
 wive_ng_iftop 0.0.1
 
-Current binary distribution (statically-built): http://cloud.github.com/downloads/w422g/wive-ng-iftop/iftop (512 kb)
+iftop for W422G_v3 (RTL8672) and other MIPS-based routers
 
-Checked in Ubuntu 10.04
+Current binary distribution: http://cloud.github.com/downloads/w422g/wive-ng-iftop/iftop (512 kb)
+
+Checked in Ubuntu 10.04 / gcc 4.4.3
 
 You have to build the entire wive_ng first.
 
@@ -10,8 +12,6 @@ Download wive-ng snapshot: http://wive-ng.git.sourceforge.net/git/gitweb.cgi?p=w
 or directly via git: git clone git://wive-ng.git.sourceforge.net/gitroot/wive-ng/wive-ng
 
 IMPORTANT! You should place sources into /opt/Wive
-
-Compiling:
 
 apt-get install flex
 apt-get install bizon
