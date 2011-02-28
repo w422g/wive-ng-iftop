@@ -1,7 +1,5 @@
 wive_ng_iftop 0.0.1
 
-iftop for W422G_v3 (RTL8672) and other MIPS-based routers
-
 Current binary distribution: http://cloud.github.com/downloads/w422g/wive-ng-iftop/iftop (512 kb)
 
 Checked in Ubuntu 10.04 / gcc 4.4.3
