@@ -2,6 +2,8 @@ wive_ng_iftop 0.0.1
 
 Current binary distribution: http://cloud.github.com/downloads/w422g/wive-ng-iftop/iftop (512 kb)
 
+Building and installing:
+
 Checked in Ubuntu 10.04 / gcc 4.4.3
 
 You have to build the entire wive_ng first.
